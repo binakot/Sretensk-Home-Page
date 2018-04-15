@@ -3,23 +3,12 @@
 
 # TEAM
 
-    Mathias Bynens -- @mathias
-    Hans Christian Reinl -- @drublic
-
-# PAST TEAM MEMBERS:
-
-    Cătălin Mariș -- @alrra
-    Nicolas Gallagher -- @necolas
-    Paul Irish -- @paul_irish
-    Divya Manian -- @divya
-
-# THANKS
-
-    Mickael Daniel -- @mklabs
+    Ivan Muratov -- @binakot
+    Tatyana Muratova
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Gulp, HTML5 Boilerplate, Normalize.css
+    HTML5, CSS3, JS
+    HTML5 Boilerplate, Gulp, Bootstrap
 
-    Source: https://github.com/h5bp/html5boilerplate.com
+    Source: https://github.com/binakot/Sretensk-Home-Page

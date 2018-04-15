@@ -1,9 +1,9 @@
 {
-    "name": "HTML5 Boilerplate",
-    "short_name": "H5BP",
-    "lang": "en",
-    "theme_color": "#E08524",
-    "description": "HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.",
+    "name": "Сретенск",
+    "short_name": "Сретенск",
+    "lang": "ru",
+    "theme_color": "#FFFFFF",
+    "description": "Сретенск — город в Забайкальском крае России.",
     "icons": [{
         "src": "icon.png",
         "sizes": "192x192",
