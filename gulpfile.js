@@ -10,7 +10,7 @@ var runSequence = require('run-sequence');  // Temporary solution until Gulp 4
 var gzip = require('gulp-gzip');
 
 var pkg = require('./package.json');
-var dirs = pkg['h5bp-configs'].directories;
+var dirs = pkg['project-configs'].directories;
 var reload = browserSync.reload;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -23,7 +23,7 @@ var browserSyncOptions = {
     logPrefix: 'Sretensk',
     notify: false,
     port: 8080,
-    browser: "google chrome"
+    browser: 'google chrome'
 };
 
 var supportedBrowsers = [
