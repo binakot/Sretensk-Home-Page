@@ -20,9 +20,10 @@ var browserSyncOptions = {
     // In-depth information about the options:
     // https://www.browsersync.io/docs/options/
 
-    logPrefix: 'H5BP',
+    logPrefix: 'Sretensk',
     notify: false,
-    port: 8080
+    port: 8080,
+    browser: "google chrome"
 };
 
 var supportedBrowsers = [

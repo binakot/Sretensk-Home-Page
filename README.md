@@ -12,7 +12,7 @@ The design is made according to the concepts of my beloved wife ♥️
 
 1. Install [Node.js](https://nodejs.org) and [NPM](https://docs.npmjs.com/getting-started/installing-node)
 
-2. Install [Gulp](https://gulpjs.com) `npm i -g gulp`
+2. Install [Gulp](https://gulpjs.com)
 
 3. Run `npm i`
 
