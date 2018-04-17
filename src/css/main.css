@@ -17,11 +17,16 @@
         padding-left: .5rem;
     }
     .navbar-expand-custom .navbar-collapse {
-        display: flex!important;
+        display: flex !important;
     }
     .navbar-expand-custom .navbar-toggler {
         display: none;
     }
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 *:focus {
@@ -29,13 +34,8 @@
 }
 
 button:hover {
-    transform:scale(1.05,1.07);
+    transform: scale(1.05, 1.05);
     transition-duration: 250ms;
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 .navbar {
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-brand {
-    padding-right: 85px;
+    padding-right: 50px;
     color: #494946 !important;
     font-family: cheap-stealer, serif;
     font-size: 60px;
@@ -63,12 +63,24 @@ body {
 }
 
 .container-fluid {
-    padding-top: 90px;
+    padding-top: 100px;
     padding-left: 50px;
-    padding-right: 135px;
 }
 
-.row {
+.container-fluid ul {
+    list-style: none;
+}
+
+.container-fluid li {
+    font-size: 18px;
+}
+
+.col-centered {
+    display: flex;
+    align-items: center;
+}
+
+.col-11 {
     margin-bottom: 30px;
     height: 850px;
     background: no-repeat center;
@@ -81,10 +93,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-#splash {
-    background-image: url("../img/1.jpg");
 }
 
 #splash .text-block {
@@ -107,22 +115,6 @@ body {
     font-size: 18px;
     text-align: right;
     text-transform: uppercase;
-}
-
-#page1 {
-    background-image: url("../img/2.jpg");
-}
-
-#page2 {
-    background-image: url("../img/3.jpg");
-}
-
-#page3 {
-    background-image: url("../img/4.jpg");
-}
-
-#page4 {
-    background-image: url("../img/5.jpg");
 }
 
 #page1 .text-block, #page2 .text-block, #page3 .text-block, #page4 .text-block {
@@ -159,7 +151,6 @@ body {
 }
 
 #page1 button, #page2 button, #page3 button, #page4 button {
-    width: 200px;
     height: 45px;
     color: white;
     background-color: #494946;
@@ -167,6 +158,26 @@ body {
     text-transform: uppercase;
     border: none;
     float: left;
+}
+
+#splash .col-11 {
+    background-image: url("../img/1.jpg");
+}
+
+#page1 .col-11 {
+    background-image: url("../img/2.jpg");
+}
+
+#page2 .col-11 {
+    background-image: url("../img/3.jpg");
+}
+
+#page3 .col-11 {
+    background-image: url("../img/4.jpg");
+}
+
+#page4 .col-11 {
+    background-image: url("../img/5.jpg");
 }
 
 #copyright {
