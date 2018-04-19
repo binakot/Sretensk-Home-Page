@@ -26,7 +26,7 @@ The design is made according to the concepts of my beloved wife ♥️
 
 ---
 
-### Using:
+### Using
 
 * [Node.js](https://nodejs.org) and [NPM](https://docs.npmjs.com/getting-started/installing-node)
 
@@ -35,3 +35,19 @@ The design is made according to the concepts of my beloved wife ♥️
 * [HTML5 boilerplate](https://github.com/h5bp/html5-boilerplate)
 
 * [Bootstrap 4](https://getbootstrap.com)
+
+---
+
+### Docker
+
+Build an image:
+
+```bash
+docker build -t sretensk-web-site .
+```
+
+Run a container:
+
+```bash
+docker run -d --restart=always --name sretensk-web-site -p 80:80 -p 443:443 sretensk-web-site
+```
